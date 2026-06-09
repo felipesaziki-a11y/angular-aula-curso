@@ -1,9 +1,10 @@
 import { Component, signal } from '@angular/core';
-import { FormsModule } from '@angular/forms'
+import { FormsModule } from '@angular/forms';
+import { Navbar } from 'C:/Users/61193/Desktop/angular-aula-curso/src/app/navbar/navbar';
 
 @Component({
   selector: 'app-formulario-basico',
-  imports: [FormsModule],
+  imports: [FormsModule, Navbar],
   templateUrl: './formulario-basico.html',
   styleUrl: './formulario-basico.scss',
 })
