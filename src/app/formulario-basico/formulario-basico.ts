@@ -4,7 +4,7 @@ import { Navbar } from 'C:/Users/61193/Desktop/angular-aula-curso/src/app/navbar
 
 @Component({
   selector: 'app-formulario-basico',
-  imports: [FormsModule, Navbar],
+  imports: [FormsModule],
   templateUrl: './formulario-basico.html',
   styleUrl: './formulario-basico.scss',
 })
