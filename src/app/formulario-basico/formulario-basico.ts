@@ -1,10 +1,11 @@
 import { Component, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Navbar } from '../navbar/navbar';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-formulario-basico',
-  imports: [FormsModule, Navbar],
+  imports: [FormsModule, Navbar, RouterLink],
   templateUrl: './formulario-basico.html',
   styleUrl: './formulario-basico.scss',
 })
