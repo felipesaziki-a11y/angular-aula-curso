@@ -2,7 +2,7 @@
   "liveServer.settings.port": 0,
   "workbench.editor.enablePreview": true,
   "editor.stickyScroll.enabled": false,
-  "files.autoSave": "afterDelay",
+  "files.autoSave": "off",
   "editor.quickSuggestions": {
     "comments": "off",
     "strings": "off",
